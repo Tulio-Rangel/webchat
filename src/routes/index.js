@@ -8,4 +8,8 @@ router.get("/", (req, res) => {
   res.sendFile(path.join(views, "index.html"));
 });
 
+router.get("/register", (req, res) => {
+  res.sendFile(path.join(views, "/register.html"));
+});
+
 module.exports = router;
