@@ -4,7 +4,9 @@ const path = require("path");
 
 const views = path.join(__dirname, "../views");
 
-router.get("/", (req, res) => {
+const isLoggedIn = require("../middlewares/isLoggedIn");
+
+router.get("/", isLoggedIn, (req, res) => {
   res.sendFile(path.join(views, "index.html"));
 });
 
