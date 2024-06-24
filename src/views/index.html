@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/chat.css">
     <title>Michi Chat</title>
 </head>
 
@@ -12,6 +13,82 @@
     <header>
         <h1>Michi Chat</h1>
     </header>
+
+    <main>
+
+        <div id="all-messages">
+
+            <div class="message">
+
+                <div class="iamge-container">
+                    <img src="/images/michi.jpeg" alt="foto de un gato">
+                </div>
+
+                <div class="message-body">
+
+                    <div class="user-info">
+                        <span class="username">Pepito</span>
+                        <span class="time">Hace 1 segundo</span>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto minus, pariatur, quasi
+                        assumenda aperiam praesentium impedit inventore rerum ducimus, facilis minima laborum
+                        consequuntur dolorem eligendi magnam. At, quibusdam perferendis.</p>
+
+                </div>
+
+            </div>
+
+            <div class="message">
+
+                <div class="iamge-container">
+                    <img src="/images/michi.jpeg" alt="foto de un gato">
+                </div>
+
+                <div class="message-body">
+
+                    <div class="user-info">
+                        <span class="username">Pepito</span>
+                        <span class="time">Hace 1 segundo</span>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto minus, pariatur, quasi
+                        assumenda aperiam praesentium impedit inventore rerum ducimus, facilis minima laborum
+                        consequuntur dolorem eligendi magnam. At, quibusdam perferendis.</p>
+
+                </div>
+
+            </div>
+
+            <div class="message">
+
+                <div class="iamge-container">
+                    <img src="/images/michi.jpeg" alt="foto de un gato">
+                </div>
+
+                <div class="message-body">
+
+                    <div class="user-info">
+                        <span class="username">Pepito</span>
+                        <span class="time">Hace 1 segundo</span>
+                    </div>
+
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse iusto minus, pariatur, quasi
+                        assumenda aperiam praesentium impedit inventore rerum ducimus, facilis minima laborum
+                        consequuntur dolorem eligendi magnam. At, quibusdam perferendis.</p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="send-message">
+            <input type="text" id="message">
+            <button type="button" id="send-message" class="btn secondary">Enviar</button>
+        </div>
+
+    </main>
 
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/script.js"></script>
